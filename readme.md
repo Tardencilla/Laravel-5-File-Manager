@@ -1,13 +1,6 @@
 # FileManager for Laravel 5
 
-Custom file manager for Laravel 5
-
-
-[![Latest Stable Version](https://poser.pugx.org/infinety-es/filemanager/v/stable?format=flat-square)](https://packagist.org/packages/infinety-es/filemanager)
-[![Total Downloads](https://poser.pugx.org/infinety-es/filemanager/downloads?format=flat-square)](https://packagist.org/packages/infinety-es/filemanager)
-[![StyleCI](https://styleci.io/repos/56165871/shield)](https://styleci.io/repos/56165871)
-[![License](https://img.shields.io/packagist/l/infinety-es/filemanager.svg?style=flat-square)](https://packagist.org/packages/infinety-es/filemanager)
-
+Custom file manager for Laravel 5 & 6
 
 ![screenshot-1](https://cloud.githubusercontent.com/assets/74367/15646143/77016990-265c-11e6-9ecc-d82ae2c74f71.png)
 
@@ -22,12 +15,12 @@ v2 - You can use with your original Laravel 5 files. Multiple fixes and addons.
 First require this package:
 
 ```sh
-composer require infinety-es/filemanager
+composer require dar3y/filemanager
 ```
 
 Add the provider on ‘app.php’:
 ```php
-Infinety\FileManager\FileManagerServiceProvider::class,
+Dar3y\FileManager\FileManagerServiceProvider::class,
 ```
 
 Aliase to `Zipper` is automatic loaded from `FileManagerServiceProvider (It's required to download folders in zip format): 
@@ -35,7 +28,7 @@ Aliase to `Zipper` is automatic loaded from `FileManagerServiceProvider (It's re
 
 Publish config, views and public files:
 ```php
-php artisan vendor:publish --provider="Infinety\FileManager\FileManagerServiceProvider"
+php artisan vendor:publish --provider="Dar3y\FileManager\FileManagerServiceProvider"
 ```
 
 Then you need to modify options on new file on options `filemanager.php`
