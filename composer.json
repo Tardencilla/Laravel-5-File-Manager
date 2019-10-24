@@ -1,13 +1,13 @@
 {
-  "name": "infinety-es/filemanager",
+  "name": "dar3y/filemanager",
   "description": "Laravel 5 Filemanager",
   "keywords": ["file", "manager", "laravel 5", "infinety"],
-  "homepage": "https://github.com/Krato/Laravel-5-File-Manager",
+  "homepage": "https://github.com/Tardencilla/Laravel-5-File-Manager",
   "license": "MIT",
   "authors": [
     {
-      "name": "Eric Lagarda",
-      "email": "eric@infinety.es"
+      "name": "Damian Tardencilla",
+      "email": "dtardencilla@gmail.com"
     }
   ],
   "require": {
@@ -19,13 +19,13 @@
     },
   "autoload": {
         "psr-4": {
-            "Infinety\\FileManager\\": "src"
+            "Dar3y\\FileManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Infinety\\FileManager\\FileManagerServiceProvider"
+                "Dar3y\\FileManager\\FileManagerServiceProvider"
             ]
         }
     }
